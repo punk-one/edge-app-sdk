@@ -1,0 +1,20 @@
+# Simple App 配置文件示例
+app:
+  name: simple-app
+  version: "1.0.0"
+
+# SDK 配置
+sdk:
+  # 日志级别配置（DEBUG/INFO/WARN/ERROR）
+  # 只有大于等于此级别的日志才会上报到 NATS
+  log_level: INFO
+
+# 应用配置
+settings:
+  interval: 10
+  debug: false
+
+# 示例配置项
+example:
+  key1: value1
+  key2: value2
